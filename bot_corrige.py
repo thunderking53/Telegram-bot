@@ -42,7 +42,7 @@ from telegram.error import TelegramError
 # ══════════════════════════════════════════════
 #  ⚠️  REMPLACE PAR TON TOKEN BOTFATHER
 # ══════════════════════════════════════════════
-BOT_TOKEN = "TON_TOKEN_ICI"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 DATA_FILE = os.path.expanduser("~/bot_data.json")
 
