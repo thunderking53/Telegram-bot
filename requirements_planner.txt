@@ -1,0 +1,2 @@
+python-telegram-bot==20.3
+pg8000==1.31.2
